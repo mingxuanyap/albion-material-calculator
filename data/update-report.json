@@ -1,0 +1,9 @@
+{
+  "updatedAt": "2026-10-08T13:35:44.788Z",
+  "recipeCount": 6716,
+  "missingName": 45,
+  "missingMaterial": 0,
+  "unclassifiedWeapons": 70,
+  "source": "ao-bin-dumps",
+  "note": "只写入有完整中文名称与完整材料清单的配方"
+}
