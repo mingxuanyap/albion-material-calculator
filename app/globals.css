@@ -1,56 +1,2150 @@
-:root{font-family:Inter,"Segoe UI","Microsoft YaHei",sans-serif;color:#f0e7d4;background:#0b101a;font-synthesis:none}*{box-sizing:border-box}body{margin:0;background:radial-gradient(ellipse 85% 350px at 50% 110px,#1c2840 0,transparent 80%),#0b101a;min-height:100vh}button,input,select{font:inherit}button{cursor:pointer}input,select{outline:none}input[type=number]{appearance:textfield;-moz-appearance:textfield}input::-webkit-inner-spin-button,input::-webkit-outer-spin-button{-webkit-appearance:none;margin:0}.topbar{height:78px;border-bottom:1px solid #283449;background:rgba(12,19,16,.88)}.topbar-inner{max-width:1040px;margin:auto;padding:0 22px;height:100%;display:flex;justify-content:space-between;align-items:center}.brand{display:flex;align-items:center;gap:12px}.brandmark{border:1px solid #c59a50;background:#263247;width:45px;height:45px;display:grid;place-items:center;transform:rotate(45deg);color:#d9b674}.brandmark svg{transform:rotate(-45deg)}.brandname{font-size:19px;letter-spacing:2px;font-weight:850}.brandname span{color:#daa953}.brandcaption{font-size:9px;letter-spacing:3.7px;color:#93a5b9;margin-top:2px}.topnote{font-size:12px;color:#85998a}.main{max-width:1040px;margin:0 auto;padding:42px 22px 40px}.eyebrow{display:flex;align-items:center;justify-content:center;gap:12px;color:#bd9962;letter-spacing:3px;font-size:10px;font-weight:750}.line{width:33px;height:1px;background:#826b47}h1{text-align:center;font-size:clamp(30px,5vw,44px);margin:12px 0 8px;font-weight:830;letter-spacing:1px}h1 span{color:#d0aa6a}.intro{text-align:center;margin:0 0 35px;color:#97a69b;font-size:14px}.panel{background:linear-gradient(145deg,#1b2535,#151e2b 70%);border:1px solid #33435b;border-radius:12px;margin-bottom:18px;padding:27px 29px;box-shadow:0 15px 35px #0003}.panel-title{display:flex;align-items:center;gap:13px;margin-bottom:23px}.panel-title.compact{margin-bottom:20px}.panel-title h2{font-size:19px;margin:0 0 4px}.panel-title p{font-size:12px;color:#9cae9d;margin:0}.step{width:35px;height:35px;border-radius:6px;border:1px solid #886e44;background:#403929;display:grid;place-items:center;font-size:13px;color:#eed1a0;font-weight:700}.category-list{display:grid;grid-template-columns:repeat(5,1fr);gap:9px;margin-bottom:24px}.category{background:#111a29;border:1px solid #354762;border-radius:7px;color:#aebcad;padding:15px 4px 12px;display:flex;flex-direction:column;align-items:center;gap:8px;transition:.16s}.category-symbol{font-size:27px;font-family:Georgia,serif;line-height:1}.category span:last-child{font-size:13px;font-weight:650}.category:hover{border-color:#a78c57;color:#f6dfb7}.category.active{background:#25364e;border-color:#d8b470;color:#f0d29b;box-shadow:inset 0 0 0 1px #a7844860}.equipment-area{display:flex;align-items:end;gap:17px;margin-bottom:23px}.equipment-select{flex:1;position:relative}.fieldlabel{display:block;font-size:12px;color:#b6c2b1;margin-bottom:9px;font-weight:600}.searchbutton{height:49px;background:#0e1727;border:1px solid #43536a;border-radius:6px;color:#fff;width:100%;display:flex;align-items:center;text-align:left;gap:11px;padding:0 14px}.searchbutton.focus,.searchbutton:hover{border-color:#d0a967}.searchbutton svg{color:#bbac87}.searchbutton .name{font-size:15px;font-weight:700;flex:1}.searchhint{font-size:11px;color:#849588}.custom-link{white-space:nowrap;background:none;border:0;color:#d9b67b;height:49px;display:flex;gap:5px;align-items:center;font-size:12px}.custom-link:hover{color:#ffe1a5}.dropdown{position:absolute;top:79px;left:0;right:0;background:#111a29;border:1px solid #94764a;border-radius:7px;z-index:10;box-shadow:0 15px 35px #000a;overflow:hidden}.searchline{display:flex;align-items:center;gap:9px;border-bottom:1px solid #3d493d;padding:10px 14px;color:#c3a56e}.searchline input{background:transparent;border:0;color:white;width:100%;font-size:14px}.searchline button{background:none;border:0;color:#a4af9f}.options{max-height:268px;overflow:auto}.option{width:100%;text-align:left;border:0;border-bottom:1px solid #28382c;background:transparent;color:#ede7d9;display:flex;align-items:center;gap:10px;padding:10px 13px}.option:hover,.option.selected{background:#2d3c2f}.option>div:nth-child(2){flex:1}.option strong,.option small{display:block}.option strong{font-size:13px}.option small{color:#91a18f;font-size:11px;margin-top:3px}.option>svg{color:#d6b578}.equipment-glyph{height:34px;width:34px;border:1px solid #6f6348;background:#333729;display:grid;place-items:center;font-family:Georgia;font-size:21px;color:#e2c17e}.noresults{padding:25px 15px;color:#a4b2a6;font-size:13px;text-align:center}.settings-grid{display:grid;grid-template-columns:1fr 1fr 1fr;gap:18px}.field{min-width:0}.tier-group{display:flex;gap:8px}.tier-group select{width:50%;height:46px;background:#0e1727;border:1px solid #43536a;border-radius:6px;color:#f4e6cb;padding:0 12px}.qty,.percent-input{height:46px;border:1px solid #43536a;border-radius:6px;background:#0e1727;display:flex;align-items:center}.qty button{height:100%;width:41px;border:0;background:none;color:#d0ae6d;font-size:23px}.qty input,.percent-input input{background:none;border:0;color:#f5e9d2;text-align:center;min-width:0;width:100%;font-weight:700}.percent-input input{text-align:left;padding-left:14px}.percent-input span{padding:0 15px;color:#b7a37c}.help{color:#978e76}.notice{display:flex;gap:10px;color:#b6ad8d;font-size:11px;line-height:1.7;background:#202b3d;border-left:2px solid #b08a4d;padding:10px 13px;border-radius:3px;margin-top:22px}.notice svg{flex-shrink:0;margin-top:2px}.iconbutton{margin-left:auto;background:none;border:1px solid #465345;border-radius:6px;color:#c9b78b;display:grid;place-items:center;width:35px;height:35px}.iconbutton:hover{border-color:#d1a45c}.tablewrap{overflow:auto}.materialtable{width:100%;border-collapse:collapse;text-align:right;font-size:13px;min-width:570px}.materialtable th{color:#8fa28f;font-weight:600;border-bottom:1px solid #536047;padding:12px 8px;font-size:11px}.materialtable th:first-child,.materialtable td:first-child{text-align:left}.materialtable td{padding:16px 8px;border-bottom:1px solid #2d3b51}.materialname{display:flex;align-items:center;gap:11px}.materialicon{width:37px;height:37px;display:grid;place-items:center;border:1px solid #737952;color:#b8cb81;background:#2b3c55;font-size:22px}.materialicon.artifact{border-color:#9b754d;color:#ddb078;background:#303043}.materialname strong{font-size:13px}.materialname small{display:block;font-size:11px;color:#94a494;margin-top:4px}.grade{font-size:11px;color:#c29d62}.muted{color:#92a394}.gold{color:#e2bc77;font-size:15px}.footnote{font-size:11px;line-height:1.6;color:#91a18e;margin-top:13px}.priceheader{display:flex;justify-content:space-between;align-items:center;margin-bottom:11px}.priceheader h3{margin:0;display:flex;align-items:center;gap:7px;color:#e5d4b4;font-size:14px}.priceheader span{color:#8ca08d;font-size:11px}.pricegrid,.twocol{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:13px;margin-bottom:17px}.pricefield label{display:block;font-size:12px;color:#acbba9;margin-bottom:7px}.silverinput{display:flex;align-items:center;background:#0e1727;border:1px solid #4e604d;border-radius:6px;height:43px}.silverinput input{border:0;background:transparent;min-width:0;flex:1;color:#f4eadb;padding:0 12px;width:100%}.silverinput span{white-space:nowrap;color:#8e9c8b;font-size:11px;padding-right:12px}.advanced-toggle{display:flex;align-items:center;gap:7px;background:none;border:0;color:#baaa88;font-size:12px;padding:4px 0;margin-bottom:17px}.advanced-toggle svg:last-child{transition:.2s}.flip{transform:rotate(180deg)}.advanced{padding:14px;margin-bottom:15px;background:#131d17;border:1px solid #3c493a;border-radius:7px}.advanced label{font-size:12px;color:#acb7a4;display:block;margin-bottom:9px}.advanced .small{max-width:170px}.advanced p{font-size:11px;color:#9dab98}.profit-summary{background:#121c17;border:1px solid #39485d;border-radius:8px;display:grid;grid-template-columns:1fr 1fr 1.25fr;overflow:hidden}.profit-summary>div{display:flex;flex-direction:column;justify-content:center;padding:20px 17px;gap:8px;border-right:1px solid #3e4a3b}.profit-summary>div:last-child{border-right:0}.profit-summary small{color:#98a997;font-size:11px}.profit-summary strong{font-size:17px;white-space:nowrap}.profit-summary .highlight{background:#26364b}.profit-summary .highlight strong{color:#e8be72}.profit-summary .highlight.negative strong{color:#e88e7f}.profit-summary .highlight span{font-size:10px;color:#bbb39d}footer{display:flex;align-items:center;justify-content:center;gap:8px;color:#728676;font-size:11px;padding:16px 0 30px}.overlay{position:fixed;inset:0;z-index:30;background:#000c;display:grid;place-items:center;padding:18px;overflow:auto}.modal{width:min(560px,100%);max-height:90vh;overflow:auto;background:#1b2535;border:1px solid #9e8353;border-radius:10px;box-shadow:0 20px 80px #000c;padding:25px}.modalhead{display:flex;align-items:start;gap:9px;justify-content:space-between;margin-bottom:20px}.modalhead h2{margin:0;font-size:20px}.modalhead p{font-size:11px;color:#a5b1a2}.modalinput,.recipeitem>input{height:41px;width:100%;background:#0d1522;border:1px solid #51614c;border-radius:5px;padding:0 11px;color:#ede7dc}.recipehead{display:flex;justify-content:space-between;margin:20px 0 10px;gap:8px}.recipehead small{font-size:10px;color:#9bab96}.recipeitem{display:grid;grid-template-columns:minmax(0,1fr) 70px 90px 32px;gap:8px;align-items:center;margin-bottom:9px}.checklabel{display:flex;align-items:center;gap:4px;font-size:11px;color:#c8d1c3}.checklabel input{accent-color:#ba995e}.addmaterial{border:1px dashed #877754;background:#1b2a3e;color:#e0c18a;padding:10px 14px;border-radius:5px;display:flex;gap:7px;align-items:center;margin:14px 0;width:100%;justify-content:center}.savebutton{background:#be9658;color:#1d2018;border:0;border-radius:5px;padding:13px 15px;font-weight:800;width:100%;display:flex;justify-content:center;align-items:center;gap:7px}.savebutton:hover{background:#e0b876}.modalfoot{font-size:10px;color:#899887;text-align:center}@media(max-width:670px){.main{padding:30px 13px}.panel{padding:19px 15px}.topbar{height:65px}.topbar-inner{padding:0 16px}.topnote{display:none}.category-list{gap:5px}.category{padding:10px 2px;gap:5px}.category-symbol{font-size:22px}.category span:last-child{font-size:11px}.equipment-area{display:block}.custom-link{height:37px}.settings-grid{grid-template-columns:1fr 1fr;gap:13px}.settings-grid .field:last-child{grid-column:span 2}.profit-summary{grid-template-columns:1fr 1fr}.profit-summary .highlight{grid-column:span 2}.profit-summary>div:nth-child(2){border-right:0}.profit-summary>div:last-child{border-top:1px solid #46513f}.pricegrid,.twocol{grid-template-columns:1fr}.intro{font-size:12px}.recipeitem{grid-template-columns:minmax(0,1fr) 55px 80px 32px;gap:4px}.recipeitem>input{padding:0 5px;font-size:12px}}
+:root {
+    font-family: Inter, "Segoe UI", "Microsoft YaHei", sans-serif;
+    color: #f0e7d4;
+    background: #0b101a;
+    font-synthesis: none
+}
+
+* {
+    box-sizing: border-box
+}
+
+body {
+    margin: 0;
+    background: radial-gradient(ellipse 85% 350px at 50% 110px, #1c2840 0, transparent 80%), #0b101a;
+    min-height: 100vh
+}
+
+button,
+input,
+select {
+    font: inherit
+}
+
+button {
+    cursor: pointer
+}
+
+input,
+select {
+    outline: none
+}
+
+input[type=number] {
+    appearance: textfield;
+    -moz-appearance: textfield
+}
+
+input::-webkit-inner-spin-button,
+input::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0
+}
+
+.topbar {
+    height: 78px;
+    border-bottom: 1px solid #283449;
+    background: rgba(12, 19, 16, .88)
+}
+
+.topbar-inner {
+    max-width: 1040px;
+    margin: auto;
+    padding: 0 22px;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center
+}
+
+.brand {
+    display: flex;
+    align-items: center;
+    gap: 12px
+}
+
+.brandmark {
+    border: 1px solid #c59a50;
+    background: #263247;
+    width: 45px;
+    height: 45px;
+    display: grid;
+    place-items: center;
+    transform: rotate(45deg);
+    color: #d9b674
+}
+
+.brandmark svg {
+    transform: rotate(-45deg)
+}
+
+.brandname {
+    font-size: 19px;
+    letter-spacing: 2px;
+    font-weight: 850
+}
+
+.brandname span {
+    color: #daa953
+}
+
+.brandcaption {
+    font-size: 9px;
+    letter-spacing: 3.7px;
+    color: #93a5b9;
+    margin-top: 2px
+}
+
+.topnote {
+    font-size: 12px;
+    color: #85998a
+}
+
+.main {
+    max-width: 1040px;
+    margin: 0 auto;
+    padding: 42px 22px 40px
+}
+
+.eyebrow {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+    color: #bd9962;
+    letter-spacing: 3px;
+    font-size: 10px;
+    font-weight: 750
+}
+
+.line {
+    width: 33px;
+    height: 1px;
+    background: #826b47
+}
+
+h1 {
+    text-align: center;
+    font-size: clamp(30px, 5vw, 44px);
+    margin: 12px 0 8px;
+    font-weight: 830;
+    letter-spacing: 1px
+}
+
+h1 span {
+    color: #d0aa6a
+}
+
+.intro {
+    text-align: center;
+    margin: 0 0 35px;
+    color: #97a69b;
+    font-size: 14px
+}
+
+.panel {
+    background: linear-gradient(145deg, #1b2535, #151e2b 70%);
+    border: 1px solid #33435b;
+    border-radius: 12px;
+    margin-bottom: 18px;
+    padding: 27px 29px;
+    box-shadow: 0 15px 35px #0003
+}
+
+.panel-title {
+    display: flex;
+    align-items: center;
+    gap: 13px;
+    margin-bottom: 23px
+}
+
+.panel-title.compact {
+    margin-bottom: 20px
+}
+
+.panel-title h2 {
+    font-size: 19px;
+    margin: 0 0 4px
+}
+
+.panel-title p {
+    font-size: 12px;
+    color: #9cae9d;
+    margin: 0
+}
+
+.step {
+    width: 35px;
+    height: 35px;
+    border-radius: 6px;
+    border: 1px solid #886e44;
+    background: #403929;
+    display: grid;
+    place-items: center;
+    font-size: 13px;
+    color: #eed1a0;
+    font-weight: 700
+}
+
+.category-list {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 9px;
+    margin-bottom: 24px
+}
+
+.category {
+    background: #111a29;
+    border: 1px solid #354762;
+    border-radius: 7px;
+    color: #aebcad;
+    padding: 15px 4px 12px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+    transition: .16s
+}
+
+.category-symbol {
+    font-size: 27px;
+    font-family: Georgia, serif;
+    line-height: 1
+}
+
+.category span:last-child {
+    font-size: 13px;
+    font-weight: 650
+}
+
+.category:hover {
+    border-color: #a78c57;
+    color: #f6dfb7
+}
+
+.category.active {
+    background: #25364e;
+    border-color: #d8b470;
+    color: #f0d29b;
+    box-shadow: inset 0 0 0 1px #a7844860
+}
+
+.equipment-area {
+    display: flex;
+    align-items: end;
+    gap: 17px;
+    margin-bottom: 23px
+}
+
+.equipment-select {
+    flex: 1;
+    position: relative
+}
+
+.fieldlabel {
+    display: block;
+    font-size: 12px;
+    color: #b6c2b1;
+    margin-bottom: 9px;
+    font-weight: 600
+}
+
+.searchbutton {
+    height: 49px;
+    background: #0e1727;
+    border: 1px solid #43536a;
+    border-radius: 6px;
+    color: #fff;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    text-align: left;
+    gap: 11px;
+    padding: 0 14px
+}
+
+.searchbutton.focus,
+.searchbutton:hover {
+    border-color: #d0a967
+}
+
+.searchbutton svg {
+    color: #bbac87
+}
+
+.searchbutton .name {
+    font-size: 15px;
+    font-weight: 700;
+    flex: 1
+}
+
+.searchhint {
+    font-size: 11px;
+    color: #849588
+}
+
+.custom-link {
+    white-space: nowrap;
+    background: none;
+    border: 0;
+    color: #d9b67b;
+    height: 49px;
+    display: flex;
+    gap: 5px;
+    align-items: center;
+    font-size: 12px
+}
+
+.custom-link:hover {
+    color: #ffe1a5
+}
+
+.dropdown {
+    position: absolute;
+    top: 79px;
+    left: 0;
+    right: 0;
+    background: #111a29;
+    border: 1px solid #94764a;
+    border-radius: 7px;
+    z-index: 10;
+    box-shadow: 0 15px 35px #000a;
+    overflow: hidden
+}
+
+.searchline {
+    display: flex;
+    align-items: center;
+    gap: 9px;
+    border-bottom: 1px solid #3d493d;
+    padding: 10px 14px;
+    color: #c3a56e
+}
+
+.searchline input {
+    background: transparent;
+    border: 0;
+    color: white;
+    width: 100%;
+    font-size: 14px
+}
+
+.searchline button {
+    background: none;
+    border: 0;
+    color: #a4af9f
+}
+
+.options {
+    max-height: 268px;
+    overflow: auto
+}
+
+.option {
+    width: 100%;
+    text-align: left;
+    border: 0;
+    border-bottom: 1px solid #28382c;
+    background: transparent;
+    color: #ede7d9;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 10px 13px
+}
+
+.option:hover,
+.option.selected {
+    background: #2d3c2f
+}
+
+.option>div:nth-child(2) {
+    flex: 1
+}
+
+.option strong,
+.option small {
+    display: block
+}
+
+.option strong {
+    font-size: 13px
+}
+
+.option small {
+    color: #91a18f;
+    font-size: 11px;
+    margin-top: 3px
+}
+
+.option>svg {
+    color: #d6b578
+}
+
+.equipment-glyph {
+    height: 34px;
+    width: 34px;
+    border: 1px solid #6f6348;
+    background: #333729;
+    display: grid;
+    place-items: center;
+    font-family: Georgia;
+    font-size: 21px;
+    color: #e2c17e
+}
+
+.noresults {
+    padding: 25px 15px;
+    color: #a4b2a6;
+    font-size: 13px;
+    text-align: center
+}
+
+.settings-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 18px
+}
+
+.field {
+    min-width: 0
+}
+
+.tier-group {
+    display: flex;
+    gap: 8px
+}
+
+.tier-group select {
+    width: 50%;
+    height: 46px;
+    background: #0e1727;
+    border: 1px solid #43536a;
+    border-radius: 6px;
+    color: #f4e6cb;
+    padding: 0 12px
+}
+
+.qty,
+.percent-input {
+    height: 46px;
+    border: 1px solid #43536a;
+    border-radius: 6px;
+    background: #0e1727;
+    display: flex;
+    align-items: center
+}
+
+.qty button {
+    height: 100%;
+    width: 41px;
+    border: 0;
+    background: none;
+    color: #d0ae6d;
+    font-size: 23px
+}
+
+.qty input,
+.percent-input input {
+    background: none;
+    border: 0;
+    color: #f5e9d2;
+    text-align: center;
+    min-width: 0;
+    width: 100%;
+    font-weight: 700
+}
+
+.percent-input input {
+    text-align: left;
+    padding-left: 14px
+}
+
+.percent-input span {
+    padding: 0 15px;
+    color: #b7a37c
+}
+
+.help {
+    color: #978e76
+}
+
+.notice {
+    display: flex;
+    gap: 10px;
+    color: #b6ad8d;
+    font-size: 11px;
+    line-height: 1.7;
+    background: #202b3d;
+    border-left: 2px solid #b08a4d;
+    padding: 10px 13px;
+    border-radius: 3px;
+    margin-top: 22px
+}
+
+.notice svg {
+    flex-shrink: 0;
+    margin-top: 2px
+}
+
+.iconbutton {
+    margin-left: auto;
+    background: none;
+    border: 1px solid #465345;
+    border-radius: 6px;
+    color: #c9b78b;
+    display: grid;
+    place-items: center;
+    width: 35px;
+    height: 35px
+}
+
+.iconbutton:hover {
+    border-color: #d1a45c
+}
+
+.tablewrap {
+    overflow: auto
+}
+
+.materialtable {
+    width: 100%;
+    border-collapse: collapse;
+    text-align: right;
+    font-size: 13px;
+    min-width: 570px
+}
+
+.materialtable th {
+    color: #8fa28f;
+    font-weight: 600;
+    border-bottom: 1px solid #536047;
+    padding: 12px 8px;
+    font-size: 11px
+}
+
+.materialtable th:first-child,
+.materialtable td:first-child {
+    text-align: left
+}
+
+.materialtable td {
+    padding: 16px 8px;
+    border-bottom: 1px solid #2d3b51
+}
+
+.materialname {
+    display: flex;
+    align-items: center;
+    gap: 11px
+}
+
+.materialicon {
+    width: 37px;
+    height: 37px;
+    display: grid;
+    place-items: center;
+    border: 1px solid #737952;
+    color: #b8cb81;
+    background: #2b3c55;
+    font-size: 22px
+}
+
+.materialicon.artifact {
+    border-color: #9b754d;
+    color: #ddb078;
+    background: #303043
+}
+
+.materialname strong {
+    font-size: 13px
+}
+
+.materialname small {
+    display: block;
+    font-size: 11px;
+    color: #94a494;
+    margin-top: 4px
+}
+
+.grade {
+    font-size: 11px;
+    color: #c29d62
+}
+
+.muted {
+    color: #92a394
+}
+
+.gold {
+    color: #e2bc77;
+    font-size: 15px
+}
+
+.footnote {
+    font-size: 11px;
+    line-height: 1.6;
+    color: #91a18e;
+    margin-top: 13px
+}
+
+.priceheader {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 11px
+}
+
+.priceheader h3 {
+    margin: 0;
+    display: flex;
+    align-items: center;
+    gap: 7px;
+    color: #e5d4b4;
+    font-size: 14px
+}
+
+.priceheader span {
+    color: #8ca08d;
+    font-size: 11px
+}
+
+.pricegrid,
+.twocol {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 13px;
+    margin-bottom: 17px
+}
+
+.pricefield label {
+    display: block;
+    font-size: 12px;
+    color: #acbba9;
+    margin-bottom: 7px
+}
+
+.silverinput {
+    display: flex;
+    align-items: center;
+    background: #0e1727;
+    border: 1px solid #4e604d;
+    border-radius: 6px;
+    height: 43px
+}
+
+.silverinput input {
+    border: 0;
+    background: transparent;
+    min-width: 0;
+    flex: 1;
+    color: #f4eadb;
+    padding: 0 12px;
+    width: 100%
+}
+
+.silverinput span {
+    white-space: nowrap;
+    color: #8e9c8b;
+    font-size: 11px;
+    padding-right: 12px
+}
+
+.advanced-toggle {
+    display: flex;
+    align-items: center;
+    gap: 7px;
+    background: none;
+    border: 0;
+    color: #baaa88;
+    font-size: 12px;
+    padding: 4px 0;
+    margin-bottom: 17px
+}
+
+.advanced-toggle svg:last-child {
+    transition: .2s
+}
+
+.flip {
+    transform: rotate(180deg)
+}
+
+.advanced {
+    padding: 14px;
+    margin-bottom: 15px;
+    background: #131d17;
+    border: 1px solid #3c493a;
+    border-radius: 7px
+}
+
+.advanced label {
+    font-size: 12px;
+    color: #acb7a4;
+    display: block;
+    margin-bottom: 9px
+}
+
+.advanced .small {
+    max-width: 170px
+}
+
+.advanced p {
+    font-size: 11px;
+    color: #9dab98
+}
+
+.profit-summary {
+    background: #121c17;
+    border: 1px solid #39485d;
+    border-radius: 8px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1.25fr;
+    overflow: hidden
+}
+
+.profit-summary>div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px 17px;
+    gap: 8px;
+    border-right: 1px solid #3e4a3b
+}
+
+.profit-summary>div:last-child {
+    border-right: 0
+}
+
+.profit-summary small {
+    color: #98a997;
+    font-size: 11px
+}
+
+.profit-summary strong {
+    font-size: 17px;
+    white-space: nowrap
+}
+
+.profit-summary .highlight {
+    background: #26364b
+}
+
+.profit-summary .highlight strong {
+    color: #e8be72
+}
+
+.profit-summary .highlight.negative strong {
+    color: #e88e7f
+}
+
+.profit-summary .highlight span {
+    font-size: 10px;
+    color: #bbb39d
+}
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    color: #728676;
+    font-size: 11px;
+    padding: 16px 0 30px
+}
+
+.overlay {
+    position: fixed;
+    inset: 0;
+    z-index: 30;
+    background: #000c;
+    display: grid;
+    place-items: center;
+    padding: 18px;
+    overflow: auto
+}
+
+.modal {
+    width: min(560px, 100%);
+    max-height: 90vh;
+    overflow: auto;
+    background: #1b2535;
+    border: 1px solid #9e8353;
+    border-radius: 10px;
+    box-shadow: 0 20px 80px #000c;
+    padding: 25px
+}
+
+.modalhead {
+    display: flex;
+    align-items: start;
+    gap: 9px;
+    justify-content: space-between;
+    margin-bottom: 20px
+}
+
+.modalhead h2 {
+    margin: 0;
+    font-size: 20px
+}
+
+.modalhead p {
+    font-size: 11px;
+    color: #a5b1a2
+}
+
+.modalinput,
+.recipeitem>input {
+    height: 41px;
+    width: 100%;
+    background: #0d1522;
+    border: 1px solid #51614c;
+    border-radius: 5px;
+    padding: 0 11px;
+    color: #ede7dc
+}
+
+.recipehead {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0 10px;
+    gap: 8px
+}
+
+.recipehead small {
+    font-size: 10px;
+    color: #9bab96
+}
+
+.recipeitem {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) 70px 90px 32px;
+    gap: 8px;
+    align-items: center;
+    margin-bottom: 9px
+}
+
+.checklabel {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    font-size: 11px;
+    color: #c8d1c3
+}
+
+.checklabel input {
+    accent-color: #ba995e
+}
+
+.addmaterial {
+    border: 1px dashed #877754;
+    background: #1b2a3e;
+    color: #e0c18a;
+    padding: 10px 14px;
+    border-radius: 5px;
+    display: flex;
+    gap: 7px;
+    align-items: center;
+    margin: 14px 0;
+    width: 100%;
+    justify-content: center
+}
+
+.savebutton {
+    background: #be9658;
+    color: #1d2018;
+    border: 0;
+    border-radius: 5px;
+    padding: 13px 15px;
+    font-weight: 800;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 7px
+}
+
+.savebutton:hover {
+    background: #e0b876
+}
+
+.modalfoot {
+    font-size: 10px;
+    color: #899887;
+    text-align: center
+}
+
+@media(max-width:670px) {
+    .main {
+        padding: 30px 13px
+    }
+
+    .panel {
+        padding: 19px 15px
+    }
+
+    .topbar {
+        height: 65px
+    }
+
+    .topbar-inner {
+        padding: 0 16px
+    }
+
+    .topnote {
+        display: none
+    }
+
+    .category-list {
+        gap: 5px
+    }
+
+    .category {
+        padding: 10px 2px;
+        gap: 5px
+    }
+
+    .category-symbol {
+        font-size: 22px
+    }
+
+    .category span:last-child {
+        font-size: 11px
+    }
+
+    .equipment-area {
+        display: block
+    }
+
+    .custom-link {
+        height: 37px
+    }
+
+    .settings-grid {
+        grid-template-columns: 1fr 1fr;
+        gap: 13px
+    }
+
+    .settings-grid .field:last-child {
+        grid-column: span 2
+    }
+
+    .profit-summary {
+        grid-template-columns: 1fr 1fr
+    }
+
+    .profit-summary .highlight {
+        grid-column: span 2
+    }
+
+    .profit-summary>div:nth-child(2) {
+        border-right: 0
+    }
+
+    .profit-summary>div:last-child {
+        border-top: 1px solid #46513f
+    }
+
+    .pricegrid,
+    .twocol {
+        grid-template-columns: 1fr
+    }
+
+    .intro {
+        font-size: 12px
+    }
+
+    .recipeitem {
+        grid-template-columns: minmax(0, 1fr) 55px 80px 32px;
+        gap: 4px
+    }
+
+    .recipeitem>input {
+        padding: 0 5px;
+        font-size: 12px
+    }
+}
 
 /* V3: blue-black/steel/gold color system */
-:root{color:#e7eef9;background:#0b101a;color-scheme:dark}
-body{background:radial-gradient(ellipse 70% 320px at 50% 0,#1e314c 0,transparent 80%),#0b101a}
-.topbar{background:#0c1321eF;border-bottom-color:#273850}
-.panel{background:linear-gradient(160deg,#1a2637,#151e2d);border:1px solid #31425a;box-shadow:0 12px 26px #04091350}
-.category{background:#111b2a;border-color:#35455f;color:#b8c6da}
-.category:hover{border-color:#8fa9c9;color:#f1f6ff}
-.category.active{background:#273951;border-color:#d3b47a;color:#f8dca2;box-shadow:inset 0 0 0 1px #d3b47a44}
-.searchbutton,.silverinput,.qty,.percent-input,.tier-group select{background:#0d1727;border-color:#435774;color:#f0f5ff}
-.dropdown{background:#111a29;border-color:#647c9c}
-.option:hover,.option.selected{background:#253751}
-.notice{background:#1e2d42;border-left-color:#c8a56d;color:#c3d0df}
-.materialtable td{border-bottom-color:#2e4158}
-.materialtable th{border-bottom-color:#51647d;color:#9cb1cc}
-.materialicon{background:#253b57;border-color:#6687a9;color:#bbd9ef}
-.materialicon.artifact{background:#343044;border-color:#947ca4;color:#e0b8e5}
-.profit-summary{background:#101a2a;border-color:#394b64}
-.profit-summary .highlight{background:#263952}
-.modal{background:#1a2739;border-color:#748ba8}
-.savebutton{background:#d0ab6b;color:#152132}
-.savebutton:hover{background:#f0c983}
-@media(min-width:900px){.main{max-width:1040px}}
+:root {
+    color: #e7eef9;
+    background: #0b101a;
+    color-scheme: dark
+}
+
+body {
+    background: radial-gradient(ellipse 70% 320px at 50% 0, #1e314c 0, transparent 80%), #0b101a
+}
+
+.topbar {
+    background: #0c1321eF;
+    border-bottom-color: #273850
+}
+
+.panel {
+    background: linear-gradient(160deg, #1a2637, #151e2d);
+    border: 1px solid #31425a;
+    box-shadow: 0 12px 26px #04091350
+}
+
+.category {
+    background: #111b2a;
+    border-color: #35455f;
+    color: #b8c6da
+}
+
+.category:hover {
+    border-color: #8fa9c9;
+    color: #f1f6ff
+}
+
+.category.active {
+    background: #273951;
+    border-color: #d3b47a;
+    color: #f8dca2;
+    box-shadow: inset 0 0 0 1px #d3b47a44
+}
+
+.searchbutton,
+.silverinput,
+.qty,
+.percent-input,
+.tier-group select {
+    background: #0d1727;
+    border-color: #435774;
+    color: #f0f5ff
+}
+
+.dropdown {
+    background: #111a29;
+    border-color: #647c9c
+}
+
+.option:hover,
+.option.selected {
+    background: #253751
+}
+
+.notice {
+    background: #1e2d42;
+    border-left-color: #c8a56d;
+    color: #c3d0df
+}
+
+.materialtable td {
+    border-bottom-color: #2e4158
+}
+
+.materialtable th {
+    border-bottom-color: #51647d;
+    color: #9cb1cc
+}
+
+.materialicon {
+    background: #253b57;
+    border-color: #6687a9;
+    color: #bbd9ef
+}
+
+.materialicon.artifact {
+    background: #343044;
+    border-color: #947ca4;
+    color: #e0b8e5
+}
+
+.profit-summary {
+    background: #101a2a;
+    border-color: #394b64
+}
+
+.profit-summary .highlight {
+    background: #263952
+}
+
+.modal {
+    background: #1a2739;
+    border-color: #748ba8
+}
+
+.savebutton {
+    background: #d0ab6b;
+    color: #152132
+}
+
+.savebutton:hover {
+    background: #f0c983
+}
+
+@media(min-width:900px) {
+    .main {
+        max-width: 1040px
+    }
+}
 
 /* V4 极简紫白：覆盖旧版的暗色主题 */
-:root{color:#302b43;background:#f8f7ff;color-scheme:light}body{background:linear-gradient(180deg,#f0ecff 0,#f8f7ff 300px);color:#302b43}.topbar{background:#fff;border-bottom-color:#e9e3fa}.brandname span,h1 span,.eyebrow,.gold,.profit-summary .highlight strong{color:#7655d8}.brandcaption,.topnote,.intro,.panel-title p,.fieldlabel,.footnote,footer,.materialname small,.pricefield label,.option small,.profit-summary small{color:#746d88}.brandmark{background:#ede7ff;border-color:#c4b2f5;color:#7655d8}.line{background:#c4b2f5}.panel{background:#fff;border:1px solid #e7e0f6;box-shadow:0 9px 26px #4e367c0d}.step{background:#ede7ff;border-color:#d8c9ff;color:#7655d8}.category{background:#faf9ff;border-color:#e5def4;color:#655b7c}.category:hover{border-color:#a78ee9;color:#7655d8}.category.active{background:#ede7ff;border-color:#7655d8;color:#6547c5;box-shadow:inset 0 0 0 1px #7655d822}.searchbutton,.silverinput,.qty,.percent-input,.tier-group select{background:#fff;border-color:#ddd5ed;color:#302b43}.searchbutton:hover,.searchbutton.focus{border-color:#7655d8}.searchbutton svg,.qty button,.custom-link,.advanced-toggle{color:#7655d8}.searchhint,.silverinput span,.percent-input span{color:#887fa0}.dropdown{background:white;border-color:#baabed;box-shadow:0 12px 28px #382b6c20}.searchline{color:#7655d8;border-bottom-color:#eee8f8}.searchline input,.qty input,.percent-input input,.silverinput input,.modalinput,.recipeitem>input{color:#302b43}.option{color:#302b43;border-bottom-color:#f2effa}.option:hover,.option.selected{background:#f2eeff}.equipment-glyph{background:#ede7ff;border-color:#d1c2f7;color:#7655d8}.noresults,.materialtable th,.muted,.priceheader span{color:#827a98}.notice{background:#f5f1ff;color:#675a83;border-left-color:#7655d8}.materialtable td{border-bottom-color:#eee9f7}.materialtable th{border-bottom-color:#e8e2f2}.materialicon,.materialicon.artifact{background:#f0eaff;border-color:#d9caf9;color:#7655d8}.priceheader h3{color:#4d3e74}.profit-summary{background:#faf8ff;border-color:#e8dffa}.profit-summary>div{border-right-color:#ece5f7}.profit-summary .highlight{background:#eee8ff}.profit-summary .highlight span{color:#6b617f}.advanced{background:#faf8ff;border-color:#e7def6}.advanced label,.advanced p{color:#756b87}.iconbutton{border-color:#d8ceeb;color:#7655d8}.modal{background:#fff;border-color:#dfd1f7;box-shadow:0 20px 80px #35225840}.modalhead p,.recipehead small,.modalfoot{color:#827895}.modalinput,.recipeitem>input{background:white;border-color:#ded6ec}.checklabel{color:#5e5572}.checklabel input{accent-color:#7655d8}.addmaterial{background:#f6f1ff;border-color:#af9ade;color:#7655d8}.savebutton{background:#7655d8;color:#fff}.savebutton:hover{background:#5f3fc3}.overlay{background:#1b103d88}.armor-filter{display:flex;gap:8px;margin:-10px 0 22px;flex-wrap:wrap}.armor-filter button{border:1px solid #ddd3f3;background:#fff;color:#75688f;border-radius:999px;padding:8px 18px;font-size:13px}.armor-filter button.active{background:#7655d8;color:#fff;border-color:#7655d8}.empty-state{padding:20px;border:1px dashed #bba9ea;border-radius:8px;background:#fbf9ff;color:#685689;font-size:13px;margin-bottom:15px}.searchbutton:focus-visible,.category:focus-visible,.armor-filter button:focus-visible{outline:3px solid #aa8bf3;outline-offset:2px}
-@media(max-width:670px){.category-list{grid-template-columns:repeat(4,minmax(0,1fr))}.armor-filter button{padding:7px 13px}}
+:root {
+    color: #302b43;
+    background: #f8f7ff;
+    color-scheme: light
+}
+
+body {
+    background: linear-gradient(180deg, #f0ecff 0, #f8f7ff 300px);
+    color: #302b43
+}
+
+.topbar {
+    background: #fff;
+    border-bottom-color: #e9e3fa
+}
+
+.brandname span,
+h1 span,
+.eyebrow,
+.gold,
+.profit-summary .highlight strong {
+    color: #7655d8
+}
+
+.brandcaption,
+.topnote,
+.intro,
+.panel-title p,
+.fieldlabel,
+.footnote,
+footer,
+.materialname small,
+.pricefield label,
+.option small,
+.profit-summary small {
+    color: #746d88
+}
+
+.brandmark {
+    background: #ede7ff;
+    border-color: #c4b2f5;
+    color: #7655d8
+}
+
+.line {
+    background: #c4b2f5
+}
+
+.panel {
+    background: #fff;
+    border: 1px solid #e7e0f6;
+    box-shadow: 0 9px 26px #4e367c0d
+}
+
+.step {
+    background: #ede7ff;
+    border-color: #d8c9ff;
+    color: #7655d8
+}
+
+.category {
+    background: #faf9ff;
+    border-color: #e5def4;
+    color: #655b7c
+}
+
+.category:hover {
+    border-color: #a78ee9;
+    color: #7655d8
+}
+
+.category.active {
+    background: #ede7ff;
+    border-color: #7655d8;
+    color: #6547c5;
+    box-shadow: inset 0 0 0 1px #7655d822
+}
+
+.searchbutton,
+.silverinput,
+.qty,
+.percent-input,
+.tier-group select {
+    background: #fff;
+    border-color: #ddd5ed;
+    color: #302b43
+}
+
+.searchbutton:hover,
+.searchbutton.focus {
+    border-color: #7655d8
+}
+
+.searchbutton svg,
+.qty button,
+.custom-link,
+.advanced-toggle {
+    color: #7655d8
+}
+
+.searchhint,
+.silverinput span,
+.percent-input span {
+    color: #887fa0
+}
+
+.dropdown {
+    background: white;
+    border-color: #baabed;
+    box-shadow: 0 12px 28px #382b6c20
+}
+
+.searchline {
+    color: #7655d8;
+    border-bottom-color: #eee8f8
+}
+
+.searchline input,
+.qty input,
+.percent-input input,
+.silverinput input,
+.modalinput,
+.recipeitem>input {
+    color: #302b43
+}
+
+.option {
+    color: #302b43;
+    border-bottom-color: #f2effa
+}
+
+.option:hover,
+.option.selected {
+    background: #f2eeff
+}
+
+.equipment-glyph {
+    background: #ede7ff;
+    border-color: #d1c2f7;
+    color: #7655d8
+}
+
+.noresults,
+.materialtable th,
+.muted,
+.priceheader span {
+    color: #827a98
+}
+
+.notice {
+    background: #f5f1ff;
+    color: #675a83;
+    border-left-color: #7655d8
+}
+
+.materialtable td {
+    border-bottom-color: #eee9f7
+}
+
+.materialtable th {
+    border-bottom-color: #e8e2f2
+}
+
+.materialicon,
+.materialicon.artifact {
+    background: #f0eaff;
+    border-color: #d9caf9;
+    color: #7655d8
+}
+
+.priceheader h3 {
+    color: #4d3e74
+}
+
+.profit-summary {
+    background: #faf8ff;
+    border-color: #e8dffa
+}
+
+.profit-summary>div {
+    border-right-color: #ece5f7
+}
+
+.profit-summary .highlight {
+    background: #eee8ff
+}
+
+.profit-summary .highlight span {
+    color: #6b617f
+}
+
+.advanced {
+    background: #faf8ff;
+    border-color: #e7def6
+}
+
+.advanced label,
+.advanced p {
+    color: #756b87
+}
+
+.iconbutton {
+    border-color: #d8ceeb;
+    color: #7655d8
+}
+
+.modal {
+    background: #fff;
+    border-color: #dfd1f7;
+    box-shadow: 0 20px 80px #35225840
+}
+
+.modalhead p,
+.recipehead small,
+.modalfoot {
+    color: #827895
+}
+
+.modalinput,
+.recipeitem>input {
+    background: white;
+    border-color: #ded6ec
+}
+
+.checklabel {
+    color: #5e5572
+}
+
+.checklabel input {
+    accent-color: #7655d8
+}
+
+.addmaterial {
+    background: #f6f1ff;
+    border-color: #af9ade;
+    color: #7655d8
+}
+
+.savebutton {
+    background: #7655d8;
+    color: #fff
+}
+
+.savebutton:hover {
+    background: #5f3fc3
+}
+
+.overlay {
+    background: #1b103d88
+}
+
+.armor-filter {
+    display: flex;
+    gap: 8px;
+    margin: -10px 0 22px;
+    flex-wrap: wrap
+}
+
+.armor-filter button {
+    border: 1px solid #ddd3f3;
+    background: #fff;
+    color: #75688f;
+    border-radius: 999px;
+    padding: 8px 18px;
+    font-size: 13px
+}
+
+.armor-filter button.active {
+    background: #7655d8;
+    color: #fff;
+    border-color: #7655d8
+}
+
+.empty-state {
+    padding: 20px;
+    border: 1px dashed #bba9ea;
+    border-radius: 8px;
+    background: #fbf9ff;
+    color: #685689;
+    font-size: 13px;
+    margin-bottom: 15px
+}
+
+.searchbutton:focus-visible,
+.category:focus-visible,
+.armor-filter button:focus-visible {
+    outline: 3px solid #aa8bf3;
+    outline-offset: 2px
+}
+
+@media(max-width:670px) {
+    .category-list {
+        grid-template-columns: repeat(4, minmax(0, 1fr))
+    }
+
+    .armor-filter button {
+        padding: 7px 13px
+    }
+}
 
 /* V5 暗夜骑士：统一高对比黑蓝 + 香槟金；覆盖之前紫白主题 */
-:root{font-family:Inter,"Noto Sans SC","Microsoft YaHei","Segoe UI",sans-serif;color:#f5f7fc;background:#12161d;color-scheme:dark}
-body{background:radial-gradient(ellipse 72% 290px at 50% 0,#263449 0,transparent 75%),#12161d;color:#f5f7fc;font-size:15px}
-.topbar{background:#151b26;border-color:#374253}.brandmark{background:#293545;border-color:#d9ae65;color:#f0c988}.brandname span,h1 span,.eyebrow,.gold,.profit-summary .highlight strong{color:#ebc489}.brandcaption,.topnote,.intro,.panel-title p,.footnote,footer,.materialname small,.pricefield label,.option small,.profit-summary small{color:#b8c4d5}
-.panel{background:#202935;border-color:#3b4b60;box-shadow:0 12px 30px #03060e40}.step{background:#3a3540;border-color:#967c59;color:#f4d6a3}.line{background:#bc985e}
-.category{background:#19232e;border-color:#42536a;color:#e0e8f2;min-height:78px}.category:hover{border-color:#e5bf80;color:#fff}.category.active{background:#344458;border-color:#e6bf7b;color:#ffdfa6;box-shadow:inset 0 0 0 1px #e6bf7b55}.category-symbol{display:grid;place-items:center;height:29px;color:inherit}
-.searchbutton,.silverinput,.qty,.percent-input,.tier-group select{background:#131c29;border-color:#53657c;color:#fff}.searchbutton:hover,.searchbutton.focus{border-color:#e4be7d}.searchbutton svg,.qty button,.custom-link,.advanced-toggle{color:#f0c888}.searchhint,.silverinput span,.percent-input span{color:#b5c1d0}
-.dropdown{background:#1d2937;border-color:#bd9b67;box-shadow:0 18px 40px #04070cc9}.searchline{color:#e3bc7a;border-bottom-color:#3a4859}.searchline input,.qty input,.percent-input input,.silverinput input,.modalinput,.recipeitem>input{color:#fff}.searchline input::placeholder,.silverinput input::placeholder{color:#aab8cb}.option{color:#fff;border-bottom-color:#374354;min-height:50px}.option:hover,.option.selected{background:#354963}.option strong{font-size:15px}.equipment-glyph{background:#2e3e50;border-color:#73839a;color:#f0cf94}.noresults,.materialtable th,.muted,.priceheader span{color:#b5c2d1}
-.notice{background:#273648;color:#d6e0ec;border-left-color:#dfb775}.materialtable td{border-bottom-color:#39475b}.materialtable th{border-bottom-color:#64758b}.materialicon,.materialicon.artifact{background:#303f55;border-color:#7288a2;color:#e9c68e}.priceheader h3{color:#f1d9ad}.profit-summary{background:#15202e;border-color:#405169}.profit-summary>div{border-right-color:#405169}.profit-summary .highlight{background:#2e4157}.profit-summary .highlight span{color:#cad5e3}
-.advanced{background:#192534;border-color:#485a73}.advanced label,.advanced p{color:#c2cedd}.iconbutton{border-color:#536780;color:#ebc489}.modal{background:#202c3b;border-color:#76879b;box-shadow:0 20px 80px #010409c9}.modalhead p,.recipehead small,.modalfoot{color:#b5c2d1}.modalinput,.recipeitem>input{background:#111b29;border-color:#566980}.checklabel{color:#d9e2ef}.checklabel input{accent-color:#d9ae65}.addmaterial{background:#29384b;border-color:#987b55;color:#f2cf96}.savebutton{background:#d9ae65;color:#192330}.savebutton:hover{background:#efc985}.overlay{background:#070b14df}
-.armor-filter,.weapon-filter{display:flex;gap:8px;flex-wrap:wrap;margin:-8px 0 20px}.armor-filter button,.weapon-filter button{border:1px solid #4d5c72;background:#172231;color:#d7e2ee;border-radius:999px;padding:9px 15px;font-size:14px;font-weight:600;min-height:38px}.armor-filter button.active,.weapon-filter button.active{background:#d9ae65;color:#192432;border-color:#e7c686}.armor-filter button:hover,.weapon-filter button:hover{border-color:#eac68d}
-.fieldlabel{color:#d8e2ed;font-size:14px}.category span:last-child,.materialname strong,.pricefield label{font-size:14px}.panel-title p,.footnote,.notice,.modalfoot,.materialname small{font-size:12px}.searchbutton .name{font-size:16px}.materialtable{font-size:14px}.materialtable th{font-size:12px}.empty-state{background:#273448;border:1px dashed #ab8f62;color:#e6d4b5;font-size:14px}.searchbutton:focus-visible,.category:focus-visible,.armor-filter button:focus-visible,.weapon-filter button:focus-visible{outline:3px solid #e2bd7d;outline-offset:2px}
-@media(max-width:670px){.category-list{grid-template-columns:repeat(4,minmax(0,1fr))}.weapon-filter{gap:6px}.weapon-filter button{padding:7px 11px;font-size:12px}.panel{padding:20px 15px}.searchhint{display:none}}
+:root {
+    font-family: Inter, "Noto Sans SC", "Microsoft YaHei", "Segoe UI", sans-serif;
+    color: #f5f7fc;
+    background: #12161d;
+    color-scheme: dark
+}
+
+body {
+    background: radial-gradient(ellipse 72% 290px at 50% 0, #263449 0, transparent 75%), #12161d;
+    color: #f5f7fc;
+    font-size: 15px
+}
+
+.topbar {
+    background: #151b26;
+    border-color: #374253
+}
+
+.brandmark {
+    background: #293545;
+    border-color: #d9ae65;
+    color: #f0c988
+}
+
+.brandname span,
+h1 span,
+.eyebrow,
+.gold,
+.profit-summary .highlight strong {
+    color: #ebc489
+}
+
+.brandcaption,
+.topnote,
+.intro,
+.panel-title p,
+.footnote,
+footer,
+.materialname small,
+.pricefield label,
+.option small,
+.profit-summary small {
+    color: #b8c4d5
+}
+
+.panel {
+    background: #202935;
+    border-color: #3b4b60;
+    box-shadow: 0 12px 30px #03060e40
+}
+
+.step {
+    background: #3a3540;
+    border-color: #967c59;
+    color: #f4d6a3
+}
+
+.line {
+    background: #bc985e
+}
+
+.category {
+    background: #19232e;
+    border-color: #42536a;
+    color: #e0e8f2;
+    min-height: 78px
+}
+
+.category:hover {
+    border-color: #e5bf80;
+    color: #fff
+}
+
+.category.active {
+    background: #344458;
+    border-color: #e6bf7b;
+    color: #ffdfa6;
+    box-shadow: inset 0 0 0 1px #e6bf7b55
+}
+
+.category-symbol {
+    display: grid;
+    place-items: center;
+    height: 29px;
+    color: inherit
+}
+
+.searchbutton,
+.silverinput,
+.qty,
+.percent-input,
+.tier-group select {
+    background: #131c29;
+    border-color: #53657c;
+    color: #fff
+}
+
+.searchbutton:hover,
+.searchbutton.focus {
+    border-color: #e4be7d
+}
+
+.searchbutton svg,
+.qty button,
+.custom-link,
+.advanced-toggle {
+    color: #f0c888
+}
+
+.searchhint,
+.silverinput span,
+.percent-input span {
+    color: #b5c1d0
+}
+
+.dropdown {
+    background: #1d2937;
+    border-color: #bd9b67;
+    box-shadow: 0 18px 40px #04070cc9
+}
+
+.searchline {
+    color: #e3bc7a;
+    border-bottom-color: #3a4859
+}
+
+.searchline input,
+.qty input,
+.percent-input input,
+.silverinput input,
+.modalinput,
+.recipeitem>input {
+    color: #fff
+}
+
+.searchline input::placeholder,
+.silverinput input::placeholder {
+    color: #aab8cb
+}
+
+.option {
+    color: #fff;
+    border-bottom-color: #374354;
+    min-height: 50px
+}
+
+.option:hover,
+.option.selected {
+    background: #354963
+}
+
+.option strong {
+    font-size: 15px
+}
+
+.equipment-glyph {
+    background: #2e3e50;
+    border-color: #73839a;
+    color: #f0cf94
+}
+
+.noresults,
+.materialtable th,
+.muted,
+.priceheader span {
+    color: #b5c2d1
+}
+
+.notice {
+    background: #273648;
+    color: #d6e0ec;
+    border-left-color: #dfb775
+}
+
+.materialtable td {
+    border-bottom-color: #39475b
+}
+
+.materialtable th {
+    border-bottom-color: #64758b
+}
+
+.materialicon,
+.materialicon.artifact {
+    background: #303f55;
+    border-color: #7288a2;
+    color: #e9c68e
+}
+
+.priceheader h3 {
+    color: #f1d9ad
+}
+
+.profit-summary {
+    background: #15202e;
+    border-color: #405169
+}
+
+.profit-summary>div {
+    border-right-color: #405169
+}
+
+.profit-summary .highlight {
+    background: #2e4157
+}
+
+.profit-summary .highlight span {
+    color: #cad5e3
+}
+
+.advanced {
+    background: #192534;
+    border-color: #485a73
+}
+
+.advanced label,
+.advanced p {
+    color: #c2cedd
+}
+
+.iconbutton {
+    border-color: #536780;
+    color: #ebc489
+}
+
+.modal {
+    background: #202c3b;
+    border-color: #76879b;
+    box-shadow: 0 20px 80px #010409c9
+}
+
+.modalhead p,
+.recipehead small,
+.modalfoot {
+    color: #b5c2d1
+}
+
+.modalinput,
+.recipeitem>input {
+    background: #111b29;
+    border-color: #566980
+}
+
+.checklabel {
+    color: #d9e2ef
+}
+
+.checklabel input {
+    accent-color: #d9ae65
+}
+
+.addmaterial {
+    background: #29384b;
+    border-color: #987b55;
+    color: #f2cf96
+}
+
+.savebutton {
+    background: #d9ae65;
+    color: #192330
+}
+
+.savebutton:hover {
+    background: #efc985
+}
+
+.overlay {
+    background: #070b14df
+}
+
+.armor-filter,
+.weapon-filter {
+    display: flex;
+    gap: 8px;
+    flex-wrap: wrap;
+    margin: -8px 0 20px
+}
+
+.armor-filter button,
+.weapon-filter button {
+    border: 1px solid #4d5c72;
+    background: #172231;
+    color: #d7e2ee;
+    border-radius: 999px;
+    padding: 9px 15px;
+    font-size: 14px;
+    font-weight: 600;
+    min-height: 38px
+}
+
+.armor-filter button.active,
+.weapon-filter button.active {
+    background: #d9ae65;
+    color: #192432;
+    border-color: #e7c686
+}
+
+.armor-filter button:hover,
+.weapon-filter button:hover {
+    border-color: #eac68d
+}
+
+.fieldlabel {
+    color: #d8e2ed;
+    font-size: 14px
+}
+
+.category span:last-child,
+.materialname strong,
+.pricefield label {
+    font-size: 14px
+}
+
+.panel-title p,
+.footnote,
+.notice,
+.modalfoot,
+.materialname small {
+    font-size: 12px
+}
+
+.searchbutton .name {
+    font-size: 16px
+}
+
+.materialtable {
+    font-size: 14px
+}
+
+.materialtable th {
+    font-size: 12px
+}
+
+.empty-state {
+    background: #273448;
+    border: 1px dashed #ab8f62;
+    color: #e6d4b5;
+    font-size: 14px
+}
+
+.searchbutton:focus-visible,
+.category:focus-visible,
+.armor-filter button:focus-visible,
+.weapon-filter button:focus-visible {
+    outline: 3px solid #e2bd7d;
+    outline-offset: 2px
+}
+
+@media(max-width:670px) {
+    .category-list {
+        grid-template-columns: repeat(4, minmax(0, 1fr))
+    }
+
+    .weapon-filter {
+        gap: 6px
+    }
+
+    .weapon-filter button {
+        padding: 7px 11px;
+        font-size: 12px
+    }
+
+    .panel {
+        padding: 20px 15px
+    }
+
+    .searchhint {
+        display: none
+    }
+}
+
 /* V6 — 薰衣草紫白: light, readable, high-contrast surfaces */
-:root{color-scheme:light;font-family:Inter,"Noto Sans SC","Microsoft YaHei",sans-serif;color:#302641;background:#f5f0ff}
-body{background:radial-gradient(ellipse 85% 320px at 50% 0,#eee2ff 0,transparent 78%),#f5f0ff;color:#302641;font-size:15px}
-.topbar{background:#fffdfa;border-bottom:1px solid #e4d7f5}.brandname{color:#34264e}.brandname span,h1 span,.eyebrow{color:#8052bc}.brandcaption,.topnote{color:#6d627b}.brandmark{background:#eee2ff;color:#8052bc;border-color:#c9afea}.line{background:#cbb5e7}
-h1{color:#302641}.intro{color:#625875}
-.panel{background:#fff;border-color:#e7dcf4;box-shadow:0 12px 26px #5d3b8b12}.panel-title h2{color:#302641}.panel-title p{color:#6b6079}.step{background:#efe6fb;color:#7641aa;border-color:#dcc5f0}
-.category{background:#fbf9ff;border-color:#e4d7f1;color:#514366}.category:hover{color:#6c3ba7;border-color:#ba93e4}.category.active{background:#ede0fa;border-color:#9660c9;color:#64329c;box-shadow:inset 0 0 0 1px #b58cdf50}
-.armor-filter button,.weapon-filter button{background:#fbf9ff;color:#58486d;border:1px solid #dfd0ef}.armor-filter button:hover,.weapon-filter button:hover{border-color:#9660c9}.armor-filter button.active,.weapon-filter button.active{color:#fff;background:#8052bc;border-color:#8052bc}
-.fieldlabel,.pricefield label{color:#4a3d60}.searchbutton,.tier-group select,.qty,.percent-input,.silverinput,.modalinput,.recipeitem>input{background:#fff;color:#312641;border-color:#d9cce9}.searchbutton .name,.tier-group select,.qty input,.percent-input input,.silverinput input,.modalinput,.recipeitem>input{color:#302641}.searchbutton svg,.searchbutton:hover svg,.custom-link{color:#8052bc}.searchbutton:hover,.searchbutton.focus{border-color:#8052bc}.searchhint,.help{color:#756a85}
-.dropdown{background:#fff;border-color:#bd9bdd;box-shadow:0 15px 35px #39234a24}.searchline{border-bottom-color:#eee6f5;color:#8052bc}.searchline input{color:#302641}.searchline button{color:#624c7f}.option{color:#302641;border-bottom-color:#f0eaf7}.option:hover,.option.selected{background:#f2eaff}.option strong{color:#312641}.option small{color:#6b6079}.option>svg{color:#8052bc}.equipment-glyph{background:#f0e7fb;border-color:#ddc9ef;color:#8052bc}.noresults{color:#675b7c}
-.qty button{color:#8052bc}.percent-input span,.muted{color:#6b6079}.notice{background:#f5effd;color:#534269;border-left-color:#9660c9}.iconbutton{border-color:#e0d2ef;color:#8052bc}.iconbutton:hover{border-color:#9660c9}.materialtable th{color:#615473;border-bottom-color:#ddd0ec}.materialtable td{border-bottom-color:#eee7f5;color:#40334f}.materialicon{background:#f3eafa;border-color:#d8bfed;color:#8052bc}.materialicon.artifact{background:#faf1fe;border-color:#deb8ec;color:#8a4ba7}.materialname strong{color:#302641}.materialname small,.grade,.footnote{color:#746783}.gold{color:#7142a8}
-.priceheader h3{color:#58406f}.priceheader span,.silverinput span{color:#71617d}.advanced-toggle{color:#8052bc}.advanced{background:#fbf8ff;border-color:#e6d9f3}.advanced label{color:#51416a}.advanced p{color:#716782}.profit-summary{background:#fbf9ff;border-color:#e6dcf1}.profit-summary>div{border-right-color:#e6dcf1}.profit-summary small{color:#695b79}.profit-summary strong{color:#342641}.profit-summary .highlight{background:#efe4fa}.profit-summary .highlight strong{color:#7142ab}.profit-summary .highlight span{color:#675777}.profit-summary .highlight.negative strong{color:#c03b59}footer{color:#6a5e76}
-.overlay{background:#261e35aa}.modal{background:#fff;border-color:#d1b6ed;box-shadow:0 20px 80px #130d2250}.modalhead h2{color:#302641}.modalhead p,.modalfoot{color:#736680}.checklabel{color:#514269}.checklabel input{accent-color:#8052bc}.addmaterial{background:#f7f0ff;border-color:#b38ddd;color:#7644ad}.savebutton{background:#8052bc;color:#fff}.savebutton:hover{background:#6e3da9}.empty-state{background:#f8f1ff;border:1px dashed #b49ad5;color:#664c85}
-.searchbutton:focus-visible,.category:focus-visible,.armor-filter button:focus-visible,.weapon-filter button:focus-visible{outline:3px solid #b58be2;outline-offset:2px}
+:root {
+    color-scheme: light;
+    font-family: Inter, "Noto Sans SC", "Microsoft YaHei", sans-serif;
+    color: #302641;
+    background: #f5f0ff
+}
+
+body {
+    background: radial-gradient(ellipse 85% 320px at 50% 0, #eee2ff 0, transparent 78%), #f5f0ff;
+    color: #302641;
+    font-size: 15px
+}
+
+.topbar {
+    background: #fffdfa;
+    border-bottom: 1px solid #e4d7f5
+}
+
+.brandname {
+    color: #34264e
+}
+
+.brandname span,
+h1 span,
+.eyebrow {
+    color: #8052bc
+}
+
+.brandcaption,
+.topnote {
+    color: #6d627b
+}
+
+.brandmark {
+    background: #eee2ff;
+    color: #8052bc;
+    border-color: #c9afea
+}
+
+.line {
+    background: #cbb5e7
+}
+
+h1 {
+    color: #302641
+}
+
+.intro {
+    color: #625875
+}
+
+.panel {
+    background: #fff;
+    border-color: #e7dcf4;
+    box-shadow: 0 12px 26px #5d3b8b12
+}
+
+.panel-title h2 {
+    color: #302641
+}
+
+.panel-title p {
+    color: #6b6079
+}
+
+.step {
+    background: #efe6fb;
+    color: #7641aa;
+    border-color: #dcc5f0
+}
+
+.category {
+    background: #fbf9ff;
+    border-color: #e4d7f1;
+    color: #514366
+}
+
+.category:hover {
+    color: #6c3ba7;
+    border-color: #ba93e4
+}
+
+.category.active {
+    background: #ede0fa;
+    border-color: #9660c9;
+    color: #64329c;
+    box-shadow: inset 0 0 0 1px #b58cdf50
+}
+
+.armor-filter button,
+.weapon-filter button {
+    background: #fbf9ff;
+    color: #58486d;
+    border: 1px solid #dfd0ef
+}
+
+.armor-filter button:hover,
+.weapon-filter button:hover {
+    border-color: #9660c9
+}
+
+.armor-filter button.active,
+.weapon-filter button.active {
+    color: #fff;
+    background: #8052bc;
+    border-color: #8052bc
+}
+
+.fieldlabel,
+.pricefield label {
+    color: #4a3d60
+}
+
+.searchbutton,
+.tier-group select,
+.qty,
+.percent-input,
+.silverinput,
+.modalinput,
+.recipeitem>input {
+    background: #fff;
+    color: #312641;
+    border-color: #d9cce9
+}
+
+.searchbutton .name,
+.tier-group select,
+.qty input,
+.percent-input input,
+.silverinput input,
+.modalinput,
+.recipeitem>input {
+    color: #302641
+}
+
+.searchbutton svg,
+.searchbutton:hover svg,
+.custom-link {
+    color: #8052bc
+}
+
+.searchbutton:hover,
+.searchbutton.focus {
+    border-color: #8052bc
+}
+
+.searchhint,
+.help {
+    color: #756a85
+}
+
+.dropdown {
+    background: #fff;
+    border-color: #bd9bdd;
+    box-shadow: 0 15px 35px #39234a24
+}
+
+.searchline {
+    border-bottom-color: #eee6f5;
+    color: #8052bc
+}
+
+.searchline input {
+    color: #302641
+}
+
+.searchline button {
+    color: #624c7f
+}
+
+.option {
+    color: #302641;
+    border-bottom-color: #f0eaf7
+}
+
+.option:hover,
+.option.selected {
+    background: #f2eaff
+}
+
+.option strong {
+    color: #312641
+}
+
+.option small {
+    color: #6b6079
+}
+
+.option>svg {
+    color: #8052bc
+}
+
+.equipment-glyph {
+    background: #f0e7fb;
+    border-color: #ddc9ef;
+    color: #8052bc
+}
+
+.noresults {
+    color: #675b7c
+}
+
+.qty button {
+    color: #8052bc
+}
+
+.percent-input span,
+.muted {
+    color: #6b6079
+}
+
+.notice {
+    background: #f5effd;
+    color: #534269;
+    border-left-color: #9660c9
+}
+
+.iconbutton {
+    border-color: #e0d2ef;
+    color: #8052bc
+}
+
+.iconbutton:hover {
+    border-color: #9660c9
+}
+
+.materialtable th {
+    color: #615473;
+    border-bottom-color: #ddd0ec
+}
+
+.materialtable td {
+    border-bottom-color: #eee7f5;
+    color: #40334f
+}
+
+.materialicon {
+    background: #f3eafa;
+    border-color: #d8bfed;
+    color: #8052bc
+}
+
+.materialicon.artifact {
+    background: #faf1fe;
+    border-color: #deb8ec;
+    color: #8a4ba7
+}
+
+.materialname strong {
+    color: #302641
+}
+
+.materialname small,
+.grade,
+.footnote {
+    color: #746783
+}
+
+.gold {
+    color: #7142a8
+}
+
+.priceheader h3 {
+    color: #58406f
+}
+
+.priceheader span,
+.silverinput span {
+    color: #71617d
+}
+
+.advanced-toggle {
+    color: #8052bc
+}
+
+.advanced {
+    background: #fbf8ff;
+    border-color: #e6d9f3
+}
+
+.advanced label {
+    color: #51416a
+}
+
+.advanced p {
+    color: #716782
+}
+
+.profit-summary {
+    background: #fbf9ff;
+    border-color: #e6dcf1
+}
+
+.profit-summary>div {
+    border-right-color: #e6dcf1
+}
+
+.profit-summary small {
+    color: #695b79
+}
+
+.profit-summary strong {
+    color: #342641
+}
+
+.profit-summary .highlight {
+    background: #efe4fa
+}
+
+.profit-summary .highlight strong {
+    color: #7142ab
+}
+
+.profit-summary .highlight span {
+    color: #675777
+}
+
+.profit-summary .highlight.negative strong {
+    color: #c03b59
+}
+
+footer {
+    color: #6a5e76
+}
+
+.overlay {
+    background: #261e35aa
+}
+
+.modal {
+    background: #fff;
+    border-color: #d1b6ed;
+    box-shadow: 0 20px 80px #130d2250
+}
+
+.modalhead h2 {
+    color: #302641
+}
+
+.modalhead p,
+.modalfoot {
+    color: #736680
+}
+
+.checklabel {
+    color: #514269
+}
+
+.checklabel input {
+    accent-color: #8052bc
+}
+
+.addmaterial {
+    background: #f7f0ff;
+    border-color: #b38ddd;
+    color: #7644ad
+}
+
+.savebutton {
+    background: #8052bc;
+    color: #fff
+}
+
+.savebutton:hover {
+    background: #6e3da9
+}
+
+.empty-state {
+    background: #f8f1ff;
+    border: 1px dashed #b49ad5;
+    color: #664c85
+}
+
+.searchbutton:focus-visible,
+.category:focus-visible,
+.armor-filter button:focus-visible,
+.weapon-filter button:focus-visible {
+    outline: 3px solid #b58be2;
+    outline-offset: 2px
+}
+
+.tier-group select {
+    appearance: none;
+    -webkit-appearance: none;
+
+    padding: 0 36px 0 12px;
+
+    background-color: #fff;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%238052bc' stroke-width='2.5' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='m6 9 6 6 6-6'/%3E%3C/svg%3E");
+    background-repeat: no-repeat;
+    background-position: right 14px center;
+    background-size: 14px 14px;
+}
